@@ -1,6 +1,4 @@
 
-	
-
 --Seperate the names of the country using Left cleaning
 SELECT "Office_location",LEFT("Office_location",7) AS Office
 FROM public."Accounts"
